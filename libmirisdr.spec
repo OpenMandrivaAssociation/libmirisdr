@@ -35,6 +35,7 @@ Library headers and other development files for mirisdr driver.
 
 %prep
 %setup -q
+sed -i 's!.x-xxx-xunknown!!g' cmake/Modules/Version.cmake
 
 %build
 %cmake
