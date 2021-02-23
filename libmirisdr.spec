@@ -9,7 +9,7 @@ Summary:        Support programs for MRi2500
 License:        GPL-2.0
 Group:          Productivity/Hamradio/Other
 Url:            https://github.com/f4exb/libmirisdr-4
-Source:         https://github.com/f4exb/libmirisdr-4/archive/%{version}/libmirisdr-4-%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:	https://github.com/f4exb/libmirisdr-4/archive/v%{version}.tar.gz
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(libusb)
 BuildRequires:  pkgconfig(udev)
