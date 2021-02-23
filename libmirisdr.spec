@@ -34,7 +34,7 @@ Requires:	%{libname} = %{EVRD}
 Library headers and other development files for mirisdr driver.
 
 %prep
-%setup -q
+%setup -qn %{name}-4-%{version}
 sed -i 's!.x-xxx-xunknown!!g' cmake/Modules/Version.cmake
 
 %build
