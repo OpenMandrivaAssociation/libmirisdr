@@ -3,7 +3,7 @@
 %define devname %mklibname -d mirisdr
 
 Name:           libmirisdr
-Version:        1.1.2
+Version:        2.0.0
 Release:        1%{?dist}
 Summary:        Support programs for MRi2500
 License:        GPL-2.0
@@ -57,7 +57,6 @@ install -D -p -m 0644 mirisdr.rules %{buildroot}%{_udevrulesdir}/10-mirisdr.rule
 %{_libdir}/libmirisdr.so.%{major}*
 
 %files -n %{devname}
-%doc AUTHORS COPYING README
 %{_libdir}/libmirisdr.so
 %{_includedir}/mirisdr.h
 %{_includedir}/mirisdr_export.h
